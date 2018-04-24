@@ -1,1 +1,1 @@
-flags
+Images sourced from http://flagpedia.net/

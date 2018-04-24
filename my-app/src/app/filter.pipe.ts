@@ -15,17 +15,15 @@ export class FilterPipe implements PipeTransform {
 		return items.filter( item => {
 			let res = true;
 
-			res *= item.code.toLowerCase().includes(panel.code);
-			res *= item.country.toLowerCase().includes(panel.country);
+			res = res && item.code.toLowerCase().includes(panel.code);
+			res = res && item.country.toLowerCase().includes(panel.country);
 
 			for(let c in panel.colors){
 				if(panel.colors[c] === true){
-					console.log(c + " is true");
-					res *= item.colors.includes(c);
+					res = res && item.colors.includes(c);
 				}
 				else if(panel.colors[c] === false){
-					console.log(c + " is false");
-					res *= !item.colors.includes(c);
+					res = res && !item.colors.includes(c);
 				}
 			}
 			//console.log(panel);

@@ -9,14 +9,6 @@ export class AppComponent {
 	constructor(private panelService : PanelService) { }
 	panel = this.panelService.getPanel();
 
-	pan = JSON.stringify(this.panel);
-	/*
-	ngOnInit(){
-		setInterval(()=>{
-			this.pan = JSON.stringify(this.panel)
-		},1000);
-	}
-	*/
 	toggleColor(color){
 		this.panelService.toggleColor(color);
 	}
