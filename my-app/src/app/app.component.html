@@ -1,0 +1,29 @@
+<div class="panel">
+	<div class="field">
+		<label>Code</label>
+		<input [(ngModel)]="panel.code">
+	</div>
+	<div class="field">
+		<label>Country</label>
+		<input [(ngModel)]="panel.country">
+	</div>
+	<div class="colors">
+		<div class="colorContainer {{panel.colors.red}}" (click)="toggleColor('red')"><span class="color red">Red</span></div><br>
+		<div class="colorContainer {{panel.colors.orange}}" (click)="toggleColor('orange')"><span class="color orange">Orange</span></div><br>
+		<div class="colorContainer {{panel.colors.yellow}}" (click)="toggleColor('yellow')"><span class="color yellow">Yellow</span></div><br>
+		<div class="colorContainer {{panel.colors.green}}" (click)="toggleColor('green')"><span class="color green">Green</span></div><br>
+		<div class="colorContainer {{panel.colors.blue}}" (click)="toggleColor('blue')"><span class="color blue">Blue</span></div><br>
+		<div class="colorContainer {{panel.colors.purple}}" (click)="toggleColor('purple')"><span class="color purple">Purple</span></div><br>
+		<div class="colorContainer {{panel.colors.white}}" (click)="toggleColor('white')"><span class="color white">White</span></div><br>
+		<div class="colorContainer {{panel.colors.grey}}" (click)="toggleColor('grey')"><span class="color grey">Grey</span></div><br>
+		<div class="colorContainer {{panel.colors.black}}" (click)="toggleColor('black')"><span class="color black">Black</span></div><br>
+	</div>
+</div>
+
+<div class="results">
+	<div class="card" *ngFor="let card of data | filter">
+	<img src="assets/flags/{{card.code}}.png">
+		<br>
+		<span>{{card.country}}</span>
+	</div>
+</div>

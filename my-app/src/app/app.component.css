@@ -1,0 +1,92 @@
+.field{
+	display: inline-block;
+}
+.field>label{
+	display: block;
+}
+.colorContainer{
+	padding-left: 0.5em;
+	display: inline-block;
+}
+.colorContainer.true:before{
+	content: "✔️";
+	font-size: 0.75em;
+	height: 0.75em;
+	width: 0.75em;
+	position: absolute;
+	left: 0;
+}
+.colorContainer.false:before{
+	content: "❌";
+	font-size: 0.75em;
+	height: 0.75em;
+	width: 0.75em;
+	position: absolute;
+	left: 0;
+}
+.color:before{
+	content: "";
+	height: 0.75em;
+	width: 0.75em;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 25%;
+	box-sizing: border-box;
+}
+.red:before{
+	background: red;
+}
+.orange:before{
+	background: orange;
+}
+.yellow:before{
+	background: yellow;
+}
+.green:before{
+	background: green;
+}
+.blue:before{
+	background: blue;
+}
+.purple:before{
+	background: purple;
+}
+.white:before{
+	background: white;
+}
+.grey:before{
+	background: grey;
+}
+.black:before{
+	background: black;
+}.results{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+}
+.card{
+	box-sizing: border-box;
+	position: relative;
+	height: 200px;
+	width: 200px;
+	padding: 15px 5px;
+	text-align: center;
+
+}
+.card img{
+	max-height: 150px;
+	max-width: 186px;
+	height: auto;
+	width: auto;
+	border: 2px lightgrey ridge;
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
+}
+.card span{
+	position: absolute;
+	width: 190px;
+	bottom: 5px;
+	left: 0px;
+}
