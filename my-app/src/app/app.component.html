@@ -1,19 +1,4 @@
 <div class="panel">
-	<div class ="fields">
-		<div class="field">
-			<label>Code</label>
-			<input [(ngModel)]="panel.code">
-		</div>
-		<div class="field">
-			<label>Country</label>
-			<input [(ngModel)]="panel.country">
-		</div>
-		<div class="field">
-			<label>Continent</label>
-			<input [(ngModel)]="panel.continent">
-		</div>
-
-	</div>
 	<div class="colors">
 		<div class="colorContainer {{panel.colors.red}}" (click)="toggleColor('red')"><span class="color red">Red</span></div><br>
 		<div class="colorContainer {{panel.colors.orange}}" (click)="toggleColor('orange')"><span class="color orange">Orange</span></div><br>
@@ -37,7 +22,30 @@
 			<img class="{{panel.shapes.triv}}" (click)="toggleShape('triv')" src="/assets/icons/triv.svg">
 		</div>
 	</div>
-
+	<div class ="fields">
+		<div class="field">
+			<label>Code</label>
+			<input [(ngModel)]="panel.code">
+		</div>
+		<div class="field">
+			<label>Country</label>
+			<input [(ngModel)]="panel.country">
+		</div>
+		<div class="field">
+			<label>
+				Continent
+				<span>(Ctrl+Click to select multiple / deselect)</span>
+			</label>
+			<select [(ngModel)]="panel.continent" multiple size=6>
+				<option value="Africa">Africa</option>
+				<option value="Asia">Asia</option>
+				<option value="Europe">Europe</option>
+				<option value="Oceania">Oceania</option>
+				<option value="North America">North America</option>
+				<option value="South America">South America</option>
+			</select>
+		</div>
+	</div>
 </div>
 
 <div class="results">

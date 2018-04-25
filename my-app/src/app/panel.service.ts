@@ -5,7 +5,7 @@ export class PanelService {
 	panel = {
 		code: "",
 		country: "",
-		continent: "",
+		continent: [],
 		colors: {
 			red: "",
 			orange: "",

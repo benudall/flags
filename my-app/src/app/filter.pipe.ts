@@ -17,23 +17,33 @@ export class FilterPipe implements PipeTransform {
 
 			res = res && item.code.toLowerCase().includes(panel.code);
 			res = res && item.country.toLowerCase().includes(panel.country);
-			res = res && item.continent.toLowerCase().includes(panel.continent);
-
-			for(let c in panel.colors){
-				if(panel.colors[c] === true){
-					res = res && item.colors.includes(c);
+			if(panel.continent.length == 0){
+				res = res && true;
+			}
+			else{
+				if(panel.continent.includes(item.continent)){
+					res = res && true;
 				}
-				else if(panel.colors[c] === false){
-					res = res && !item.colors.includes(c);
+				else{
+					res = res && false;
 				}
 			}
 
-			for(let s in panel.shapes){
-				if(panel.shapes[s] === true){
-					res = res && item.shapes.includes(s);
+			for(let col in panel.colors){
+				if(panel.colors[col] === true){
+					res = res && item.colors.includes(col);
 				}
-				else if(panel.shapes[c] === false){
-					res = res && !item.shapes.includes(s);
+				else if(panel.colors[col] === false){
+					res = res && !item.colors.includes(col);
+				}
+			}
+
+			for(let sha in panel.shapes){
+				if(panel.shapes[sha] === true){
+					res = res && item.shapes.includes(sha);
+				}
+				else if(panel.shapes[sha] === false){
+					res = res && !item.shapes.includes(sha);
 				}
 			}
 			return res;

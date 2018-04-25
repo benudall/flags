@@ -2,7 +2,19 @@
 	display: inline-block;
 }
 .field>label{
-	display: block;
+	display: inline-block;
+	width: 70px;
+	vertical-align: top;
+}
+label>span{
+	font-size: 11px;
+	color: grey;
+}
+.field>input,.field>select{
+	margin: 2px;
+}
+select{
+	overflow: hidden;
 }
 .colors{
 	display: inline-block;
