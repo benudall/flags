@@ -12,14 +12,21 @@ label>span{
 }
 .field>input,.field>select{
 	margin: 2px;
+	width: 100px;
+	box-sizing: border-box;
 }
 select{
 	overflow: hidden;
+}
+.reset{
+	display: inline-block;
+	vertical-align: top;
 }
 .colors{
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 10px;
+	user-select: none;
 }
 .colorContainer{
 	padding-left: 0.5em;
@@ -84,7 +91,7 @@ select{
 .shapes>div{
 	display: flex;
 	flex-wrap: wrap;
-	width: 120px;
+	width: 180px;
 }
 .shapes img{
 	margin: 5px;

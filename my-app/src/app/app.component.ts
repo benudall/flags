@@ -10,12 +10,17 @@ export class AppComponent {
 	panel = this.panelService.getPanel();
 
 	toggleColor(color){
-		this.panelService.toggleColor(color);
+		this.panel = this.panelService.toggleColor(color);
 	}
 
 	toggleShape(shape){
-		this.panelService.toggleShape(shape);
+		this.panel = this.panelService.toggleShape(shape);
 	}
+
+	resetPanel(){
+		this.panel = this.panelService.resetPanel();
+	}
+
 	data = [
 		{
 			code: "ad",
@@ -31,7 +36,7 @@ export class AppComponent {
 			country: "United Arab Emirates",
 			colors: ["red","green","white","black"],
 			shapes: [],
-			names: []
+			names: ["uae"]
 		},
 		{
 			code: "af",
@@ -511,7 +516,7 @@ export class AppComponent {
 			country: "United Kingdom",
 			colors: ["red","white","blue"],
 			shapes: [],
-			names: ["UK"]
+			names: ["uk"]
 		},
 		{
 			code: "gd",
@@ -1495,7 +1500,7 @@ export class AppComponent {
 			country: "United States of America",
 			colors: ["blue","red","white"],
 			shapes: ["canton","emblem","star"],
-			names: ["USA"]
+			names: ["usa"]
 		},
 		{
 			code: "uy",

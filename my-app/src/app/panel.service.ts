@@ -34,6 +34,37 @@ export class PanelService {
 		return this.panel
 	}
 
+	resetPanel(){
+		this.panel = {
+			code: "",
+			country: "",
+			continent: [],
+			colors: {
+				red: "",
+				orange: "",
+				yellow: "",
+				green: "",
+				blue: "",
+				maroon: "",
+				white: "",
+				black: ""
+			},
+			shapes: {
+				bi: "",
+				border: "",
+				canton: "",
+				diagonal: "",
+				emblem: "",
+				nordic: "",
+				star: "",
+				triangle: "",
+				trih : "",
+				triv : ""
+			}
+		};
+		return this.panel;
+	}
+
 	toggleColor(color){
 		let status = this.panel.colors[color];
 		if(status === true){
@@ -45,6 +76,7 @@ export class PanelService {
 		else if(status === ""){
 			this.panel.colors[color] = true;
 		}
+		return this.panel;
 	}
 
 	toggleShape(shape){
@@ -58,6 +90,6 @@ export class PanelService {
 		else if(status === ""){
 			this.panel.shapes[shape] = true;
 		}
-		console.log(this.panel);
+		return this.panel;
 	}
 }

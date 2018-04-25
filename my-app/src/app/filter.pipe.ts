@@ -16,7 +16,8 @@ export class FilterPipe implements PipeTransform {
 			let res = true;
 
 			res = res && item.code.toLowerCase().includes(panel.code);
-			res = res && item.country.toLowerCase().includes(panel.country);
+			res = res && ( item.country.toLowerCase().includes(panel.country.toLowerCase()) || item.names.includes(panel.country.toLowerCase()) );
+
 			if(panel.continent.length == 0){
 				res = res && true;
 			}
