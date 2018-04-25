@@ -74,9 +74,6 @@ select{
 .white:before{
 	background: white;
 }
-.grey:before{
-	background: grey;
-}
 .black:before{
 	background: black;
 }

@@ -14,7 +14,6 @@ export class PanelService {
 			blue: "",
 			maroon: "",
 			white: "",
-			grey: "",
 			black: ""
 		},
 		shapes: {
