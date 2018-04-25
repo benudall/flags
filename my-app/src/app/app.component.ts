@@ -61,103 +61,103 @@ export class AppComponent {
 			code: "am",
 			continent: "Asia",
 			country: "Armenia",
-			colors: [],
-			shapes: [],
+			colors: ["red","blue","orange"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "ao",
 			continent: "Africa",
 			country: "Angola",
-			colors: [],
-			shapes: [],
+			colors: ["red","black","yellow"],
+			shapes: ["bi","emblem","star"],
 			names: []
 		},
 		{
 			code: "ar",
 			continent: "South America",
 			country: "Argentina",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white"],
+			shapes: ["trih","emblem"],
 			names: []
 		},
 		{
 			code: "at",
 			continent: "Europe",
 			country: "Austria",
-			colors: [],
-			shapes: [],
+			colors: ["red","white"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "au",
 			continent: "Oceania",
 			country: "Australia",
-			colors: [],
-			shapes: [],
+			colors: ["blue","red","white"],
+			shapes: ["canton","emblem","star"],
 			names: []
 		},
 		{
 			code: "az",
 			continent: "Asia",
 			country: "Azerbaijan",
-			colors: [],
-			shapes: [],
+			colors: ["blue","red","green","white"],
+			shapes: ["trih","emblem","star"],
 			names: []
 		},
 		{
 			code: "ba",
 			continent: "Europe",
 			country: "Bosnia and Herzegovina",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","white"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "bb",
 			continent: "North America",
 			country: "Barbados",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow"],
+			shapes: ["triv","emblem"],
 			names: []
 		},
 		{
 			code: "bd",
 			continent: "Asia",
 			country: "Bangladesh",
-			colors: [],
-			shapes: [],
+			colors: ["green","red"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "be",
 			continent: "Europe",
 			country: "Belgium",
-			colors: [],
-			shapes: [],
+			colors: ["black","yellow","red"],
+			shapes: ["triv"],
 			names: []
 		},
 		{
 			code: "bf",
 			continent: "Africa",
 			country: "Burkina Faso",
-			colors: [],
-			shapes: [],
+			colors: ["red","green","yellow"],
+			shapes: ["bi","emblem","star"],
 			names: []
 		},
 		{
 			code: "bg",
 			continent: "Europe",
 			country: "Bulgaria",
-			colors: [],
-			shapes: [],
+			colors: ["white","green","red"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "bh",
 			continent: "Asia",
 			country: "Bahrain",
-			colors: [],
+			colors: ["white","red"],
 			shapes: [],
 			names: []
 		},
@@ -165,15 +165,15 @@ export class AppComponent {
 			code: "bi",
 			continent: "Africa",
 			country: "Burundi",
-			colors: [],
-			shapes: [],
+			colors: ["white","red","green"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "bj",
 			continent: "Africa",
 			country: "Benin",
-			colors: [],
+			colors: ["green","yellow","red"],
 			shapes: [],
 			names: []
 		},
@@ -181,47 +181,47 @@ export class AppComponent {
 			code: "bn",
 			continent: "Asia",
 			country: "Brunei",
-			colors: [],
-			shapes: [],
+			colors: ["yellow","white","black","red"],
+			shapes: ["diagonal","emblem"],
 			names: []
 		},
 		{
 			code: "bo",
 			continent: "South America",
 			country: "Bolivia",
-			colors: [],
-			shapes: [],
+			colors: ["red","yellow","green"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "br",
 			continent: "South America",
 			country: "Brazil",
-			colors: [],
-			shapes: [],
+			colors: ["green","yellow","blue"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "bs",
 			continent: "North America",
 			country: "Bahamas",
-			colors: [],
-			shapes: [],
+			colors: ["black","blue","yellow"],
+			shapes: ["trih","triangle"],
 			names: []
 		},
 		{
 			code: "bt",
 			continent: "Asia",
 			country: "Bhutan",
-			colors: [],
-			shapes: [],
+			colors: ["yellow","orange","white"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "bw",
 			continent: "Africa",
 			country: "Botswana",
-			colors: [],
+			colors: ["blue","white","black"],
 			shapes: [],
 			names: []
 		},
@@ -229,95 +229,95 @@ export class AppComponent {
 			code: "by",
 			continent: "Europe",
 			country: "Belarus",
-			colors: [],
-			shapes: [],
+			colors: ["red","green","white"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "bz",
 			continent: "North America",
 			country: "Belize",
-			colors: [],
-			shapes: [],
+			colors: ["red","blue","white","green"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "ca",
 			continent: "North America",
 			country: "Canada",
-			colors: [],
-			shapes: [],
+			colors: ["red","white"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "cd",
 			continent: "Africa",
 			country: "Democratic Republic of the Congo",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","red"],
+			shapes: ["diagonal","emblem","star"],
 			names: []
 		},
 		{
 			code: "cf",
 			continent: "Africa",
 			country: "Central African Republic",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","green","yellow","red"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "cg",
 			continent: "Africa",
 			country: "Congo",
-			colors: [],
-			shapes: [],
+			colors: ["green","yellow","red"],
+			shapes: ["diagonal"],
 			names: []
 		},
 		{
 			code: "ch",
 			continent: "Europe",
 			country: "Switzerland",
-			colors: [],
+			colors: ["red","white"],
 			shapes: [],
-			names: []
+			names: ["swiss"]
 		},
 		{
 			code: "ci",
 			continent: "Africa",
 			country: "Ivory Coast",
-			colors: [],
-			shapes: [],
+			colors: ["orange","white","green"],
+			shapes: ["triv"],
 			names: []
 		},
 		{
 			code: "cl",
 			continent: "South America",
 			country: "Chile",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","red"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "cm",
 			continent: "Africa",
 			country: "Cameroon",
-			colors: [],
-			shapes: [],
+			colors: ["green","red","yellow"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "cn",
 			continent: "Asia",
 			country: "China",
-			colors: [],
-			shapes: [],
+			colors: ["red","yellow"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "co",
 			continent: "South America",
 			country: "Colombia",
-			colors: [],
+			colors: ["yellow","blue","red"],
 			shapes: [],
 			names: []
 		},
@@ -325,7 +325,7 @@ export class AppComponent {
 			code: "cr",
 			continent: "North America",
 			country: "Costa Rica",
-			colors: [],
+			colors: ["blue","white","red"],
 			shapes: [],
 			names: []
 		},
@@ -333,215 +333,215 @@ export class AppComponent {
 			code: "cu",
 			continent: "North America",
 			country: "Cuba",
-			colors: [],
-			shapes: [],
+			colors: ["red","blue","white"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		},
 		{
 			code: "cv",
 			continent: "Africa",
 			country: "Cape Verde",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","red","yellow"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "cy",
 			continent: "Asia",
 			country: "Cyprus",
-			colors: [],
-			shapes: [],
+			colors: ["white","orange","green"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "cz",
 			continent: "Europe",
 			country: "Czech Republic",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","red"],
+			shapes: ["triangle"],
 			names: []
 		},
 		{
 			code: "de",
 			continent: "Europe",
 			country: "Germany",
-			colors: [],
-			shapes: [],
+			colors: ["black","red","yello"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "dj",
 			continent: "Africa",
 			country: "Djibouti",
-			colors: [],
-			shapes: [],
+			colors: ["white","blue","green","red"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		},
 		{
 			code: "dk",
 			continent: "Europe",
 			country: "Denmark",
-			colors: [],
-			shapes: [],
+			colors: ["red","white"],
+			shapes: ["nordic"],
 			names: []
 		},
 		{
 			code: "dm",
 			continent: "North America",
 			country: "Dominica",
-			colors: [],
-			shapes: [],
+			colors: ["green","yellow","black","white","red"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "do",
 			continent: "North America",
 			country: "Dominican Republic",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","red"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "dz",
 			continent: "Africa",
 			country: "Algeria",
-			colors: [],
-			shapes: [],
+			colors: ["green","white","red"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "ec",
 			continent: "South America",
 			country: "Ecuador",
-			colors: [],
-			shapes: [],
+			colors: ["yellow","blue","red"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "ee",
 			continent: "Europe",
 			country: "Estonia",
-			colors: [],
-			shapes: [],
+			colors: ["blue","black","white"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "eg",
 			continent: "Africa",
 			country: "Egypt",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","black","yellow"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "eh",
 			continent: "Africa",
 			country: "Western Sahara",
-			colors: [],
-			shapes: [],
+			colors: ["red","black","white","green"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		},
 		{
 			code: "er",
 			continent: "Africa",
 			country: "Eritrea",
-			colors: [],
-			shapes: [],
+			colors: ["red","green","blue","yellow"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		},
 		{
 			code: "es",
 			continent: "Europe",
 			country: "Spain",
-			colors: [],
-			shapes: [],
+			colors: ["red","yellow"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "et",
 			continent: "Africa",
 			country: "Ethiopia",
-			colors: [],
-			shapes: [],
+			colors: ["green","yellow","red","blue"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "fi",
 			continent: "Europe",
 			country: "Finland",
-			colors: [],
-			shapes: [],
+			colors: ["white","blue"],
+			shapes: ["nordic"],
 			names: []
 		},
 		{
 			code: "fj",
 			continent: "Oceania",
 			country: "Fiji",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","red"],
+			shapes: ["canton","emblem"],
 			names: []
 		},
 		{
 			code: "fm",
 			continent: "Oceania",
 			country: "Micronesia",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "fr",
 			continent: "Europe",
 			country: "France",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","red"],
+			shapes: ["triv"],
 			names: []
 		},
 		{
 			code: "ga",
 			continent: "Africa",
 			country: "Gabon",
-			colors: [],
-			shapes: [],
+			colors: ["green","yellow","blue"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "gb",
 			continent: "Europe",
 			country: "United Kingdom",
-			colors: [],
+			colors: ["red","white","blue"],
 			shapes: [],
-			names: []
+			names: ["UK"]
 		},
 		{
 			code: "gd",
 			continent: "North America",
 			country: "Grenada",
-			colors: [],
-			shapes: [],
+			colors: ["red","yellow","green"],
+			shapes: ["border","emblem","star"],
 			names: []
 		},
 		{
 			code: "ge",
 			continent: "Asia",
 			country: "Georgia",
-			colors: [],
-			shapes: [],
+			colors: ["white","red"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "gh",
 			continent: "Africa",
 			country: "Ghana",
-			colors: [],
-			shapes: [],
+			colors: ["red","yellow","green","black"],
+			shapes: ["trih","emblem","star"],
 			names: []
 		},
 		{
 			code: "gm",
 			continent: "Africa",
 			country: "Gambia",
-			colors: [],
+			colors: ["red","white","blue","green"],
 			shapes: [],
 			names: []
 		},
@@ -549,151 +549,151 @@ export class AppComponent {
 			code: "gn",
 			continent: "Africa",
 			country: "Guinea",
-			colors: [],
-			shapes: [],
+			colors: ["red","yellow","green"],
+			shapes: ["triv"],
 			names: []
 		},
 		{
 			code: "gq",
 			continent: "Africa",
 			country: "Equatorial Guinea",
-			colors: [],
-			shapes: [],
+			colors: ["blue","green","white","red"],
+			shapes: ["triangle","emblem"],
 			names: []
 		},
 		{
 			code: "gr",
 			continent: "Europe",
 			country: "Greece",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white"],
+			shapes: ["canton"],
 			names: []
 		},
 		{
 			code: "gt",
 			continent: "North America",
 			country: "Guatemala",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white"],
+			shapes: ["triv","emblem"],
 			names: []
 		},
 		{
 			code: "gw",
 			continent: "Africa",
 			country: "Guinea-Bissau",
-			colors: [],
-			shapes: [],
+			colors: ["red","yellow","green","black"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "gy",
 			continent: "South America",
 			country: "Guyana",
-			colors: [],
-			shapes: [],
+			colors: ["red","black","yellow","white","green"],
+			shapes: ["triangle"],
 			names: []
 		},
 		{
 			code: "hn",
 			continent: "North America",
 			country: "Honduras",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white"],
+			shapes: ["trih","emblem","star"],
 			names: []
 		},
 		{
 			code: "hr",
 			continent: "Europe",
 			country: "Croatia",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","blue"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "ht",
 			continent: "North America",
 			country: "Haiti",
-			colors: [],
-			shapes: [],
+			colors: ["blue","red"],
+			shapes: ["bi","emblem"],
 			names: []
 		},
 		{
 			code: "hu",
 			continent: "Europe",
 			country: "Hungary",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","green"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "id",
 			continent: "Asia",
 			country: "Indonesia",
-			colors: [],
-			shapes: [],
+			colors: ["red","white"],
+			shapes: ["bi"],
 			names: []
 		},
 		{
 			code: "ie",
 			continent: "Europe",
 			country: "Ireland",
-			colors: [],
-			shapes: [],
+			colors: ["green","white","orange"],
+			shapes: ["triv"],
 			names: []
 		},
 		{
 			code: "il",
 			continent: "Asia",
 			country: "Israel",
-			colors: [],
-			shapes: [],
+			colors: ["white","blue"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "in",
 			continent: "Asia",
 			country: "India",
-			colors: [],
-			shapes: [],
+			colors: ["orange","white","green","blue"],
+			shapes: ["trih","emblem"],
 			names: []
 		},
 		{
 			code: "iq",
 			continent: "Asia",
 			country: "Iraq",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","black","green"],
+			shapes: ["trih","emblem"],
 			names: []
 		},
 		{
 			code: "ir",
 			continent: "Asia",
 			country: "Iran",
-			colors: [],
-			shapes: [],
+			colors: ["green","white","red"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "is",
 			continent: "Europe",
 			country: "Iceland",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","red"],
+			shapes: ["nordic"],
 			names: []
 		},
 		{
 			code: "it",
 			continent: "Europe",
 			country: "Italy",
-			colors: [],
-			shapes: [],
+			colors: ["green","white","red"],
+			shapes: ["triv"],
 			names: []
 		},
 		{
 			code: "jm",
 			continent: "North America",
 			country: "Jamaica",
-			colors: [],
+			colors: ["yellow","green","black"],
 			shapes: [],
 			names: []
 		},
@@ -701,95 +701,95 @@ export class AppComponent {
 			code: "jo",
 			continent: "Asia",
 			country: "Jordan",
-			colors: [],
-			shapes: [],
+			colors: ["red","black","white","green"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		},
 		{
 			code: "jp",
 			continent: "Asia",
 			country: "Japan",
-			colors: [],
-			shapes: [],
+			colors: ["white","red"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "ke",
 			continent: "Africa",
 			country: "Kenya",
-			colors: [],
-			shapes: [],
+			colors: ["black","white","red","green"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "kg",
 			continent: "Asia",
 			country: "Kyrgyzstan",
-			colors: [],
-			shapes: [],
+			colors: ["red","yello"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "kh",
 			continent: "Asia",
 			country: "Cambodia",
-			colors: [],
-			shapes: [],
+			colors: ["blue","red","white"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "ki",
 			continent: "Oceania",
 			country: "Kiribati",
-			colors: [],
-			shapes: [],
+			colors: ["red","yellow","white","blue"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "km",
 			continent: "Africa",
 			country: "Comoros",
-			colors: [],
-			shapes: [],
+			colors: ["green","yellow","white","red","blue"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		},
 		{
 			code: "kn",
 			continent: "North America",
 			country: "Saint Kitts and Nevis",
-			colors: [],
-			shapes: [],
+			colors: ["green","yellow","black","white","red"],
+			shapes: ["diagonal","emblem","star"],
 			names: []
 		},
 		{
 			code: "kp",
 			continent: "Asia",
 			country: "North Korea",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","red"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "kr",
 			continent: "Asia",
 			country: "South Korea",
-			colors: [],
-			shapes: [],
+			colors: ["white","black","red","blue"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "ks",
 			continent: "Europe",
 			country: "Kosovo",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","yellow"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "kw",
 			continent: "Asia",
 			country: "Kuwait",
-			colors: [],
+			colors: ["black","green","white","red"],
 			shapes: [],
 			names: []
 		},
@@ -797,31 +797,31 @@ export class AppComponent {
 			code: "kz",
 			continent: "Asia",
 			country: "Kazakhstan",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "la",
 			continent: "Asia",
 			country: "Laos",
-			colors: [],
-			shapes: [],
+			colors: ["red","blue","white"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "lb",
 			continent: "Asia",
 			country: "Lebanon",
-			colors: [],
-			shapes: [],
+			colors: ["orange","white","green"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "lc",
 			continent: "North America",
 			country: "Saint Lucia",
-			colors: [],
+			colors: ["blue","white","black","yellow"],
 			shapes: [],
 			names: []
 		},
@@ -829,55 +829,55 @@ export class AppComponent {
 			code: "li",
 			continent: "Europe",
 			country: "Liechtenstein",
-			colors: [],
-			shapes: [],
+			colors: ["blue","red","yello"],
+			shapes: ["bi","emblem"],
 			names: []
 		},
 		{
 			code: "lk",
 			continent: "Asia",
 			country: "Sri Lanka",
-			colors: [],
-			shapes: [],
+			colors: ["yellow","green","orange","maroon"],
+			shapes: ["border","emblem"],
 			names: []
 		},
 		{
 			code: "lr",
 			continent: "Africa",
 			country: "Liberia",
-			colors: [],
-			shapes: [],
+			colors: ["blue","red","white"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "ls",
 			continent: "Africa",
 			country: "Lesotho",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","green","black"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "lt",
 			continent: "Europe",
 			country: "Lithuania",
-			colors: [],
-			shapes: [],
+			colors: ["yellow","green","red"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "lu",
 			continent: "Europe",
 			country: "Luxembourg",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","blue"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "lv",
 			continent: "Europe",
 			country: "Latvia",
-			colors: [],
+			colors: ["red","white"],
 			shapes: [],
 			names: []
 		},
@@ -885,47 +885,47 @@ export class AppComponent {
 			code: "ly",
 			continent: "Africa",
 			country: "Libya",
-			colors: [],
-			shapes: [],
+			colors: ["red","black","green","white"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "ma",
 			continent: "Africa",
 			country: "Morocco",
-			colors: [],
-			shapes: [],
+			colors: ["red","green"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "mc",
 			continent: "Europe",
 			country: "Monaco",
-			colors: [],
-			shapes: [],
+			colors: ["red","white"],
+			shapes: ["bi"],
 			names: []
 		},
 		{
 			code: "md",
 			continent: "Europe",
 			country: "Moldova",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","red"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "me",
 			continent: "Europe",
 			country: "Montenegro",
-			colors: [],
-			shapes: [],
+			colors: ["yellow","red"],
+			shapes: ["border","emblem"],
 			names: []
 		},
 		{
 			code: "mg",
 			continent: "Africa",
 			country: "Madagascar",
-			colors: [],
+			colors: ["white","red","green"],
 			shapes: [],
 			names: []
 		},
@@ -933,15 +933,15 @@ export class AppComponent {
 			code: "mh",
 			continent: "Oceania",
 			country: "Marshall Islands",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","orange"],
+			shapes: ["diagonal","emblem"],
 			names: []
 		},
 		{
 			code: "mk",
 			continent: "Europe",
 			country: "Macedonia",
-			colors: [],
+			colors: ["yellow","red"],
 			shapes: [],
 			names: []
 		},
@@ -949,47 +949,47 @@ export class AppComponent {
 			code: "ml",
 			continent: "Africa",
 			country: "Mali",
-			colors: [],
-			shapes: [],
+			colors: ["green","yellow","red"],
+			shapes: ["triv"],
 			names: []
 		},
 		{
 			code: "mm",
 			continent: "Asia",
 			country: "Myanmar",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","red"],
+			shapes: ["canton","emblem","star"],
 			names: []
 		},
 		{
 			code: "mn",
 			continent: "Asia",
 			country: "Mongolia",
-			colors: [],
-			shapes: [],
+			colors: ["red","blue","yellow"],
+			shapes: ["triv","emblem"],
 			names: []
 		},
 		{
 			code: "mr",
 			continent: "Africa",
 			country: "Mauritania",
-			colors: [],
-			shapes: [],
+			colors: ["green","yellow"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "mt",
 			continent: "Europe",
 			country: "Malta",
-			colors: [],
-			shapes: [],
+			colors: ["white","red"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "mu",
 			continent: "Africa",
 			country: "Mauritius",
-			colors: [],
+			colors: ["red","blue","yellow","green"],
 			shapes: [],
 			names: []
 		},
@@ -997,199 +997,199 @@ export class AppComponent {
 			code: "mv",
 			continent: "Asia",
 			country: "Maldives",
-			colors: [],
-			shapes: [],
+			colors: ["red","green","white"],
+			shapes: ["border","emblem"],
 			names: []
 		},
 		{
 			code: "mw",
 			continent: "Africa",
 			country: "Malawi",
-			colors: [],
-			shapes: [],
+			colors: ["black","red","green"],
+			shapes: ["trih","emblem"],
 			names: []
 		},
 		{
 			code: "mx",
 			continent: "North America",
 			country: "Mexico",
-			colors: [],
-			shapes: [],
+			colors: ["green","white","red"],
+			shapes: ["triv","emblem"],
 			names: []
 		},
 		{
 			code: "my",
 			continent: "Asia",
 			country: "Malaysia",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","red","white"],
+			shapes: ["canton","emblem","star"],
 			names: []
 		},
 		{
 			code: "mz",
 			continent: "Africa",
 			country: "Mozambique",
-			colors: [],
-			shapes: [],
+			colors: ["red","green","white","black","yellow"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		},
 		{
 			code: "na",
 			continent: "Africa",
 			country: "Namibia",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","white","red","green"],
+			shapes: ["diagonal","emblem"],
 			names: []
 		},
 		{
 			code: "ne",
 			continent: "Africa",
 			country: "Niger",
-			colors: [],
-			shapes: [],
+			colors: ["orange","white","green"],
+			shapes: ["trih","emblem"],
 			names: []
 		},
 		{
 			code: "ng",
 			continent: "Africa",
 			country: "Nigeria",
-			colors: [],
-			shapes: [],
+			colors: ["green","white"],
+			shapes: ["triv"],
 			names: []
 		},
 		{
 			code: "ni",
 			continent: "North America",
 			country: "Nicaragua",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white"],
+			shapes: ["trih","emblem"],
 			names: []
 		},
 		{
 			code: "nl",
 			continent: "Europe",
 			country: "Netherlands",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","blue"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "no",
 			continent: "Europe",
 			country: "Norway",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","blue"],
+			shapes: ["nordic"],
 			names: []
 		},
 		{
 			code: "np",
 			continent: "Asia",
 			country: "Nepal",
-			colors: [],
-			shapes: [],
+			colors: ["blue","red","white"],
+			shapes: ["border","emblem"],
 			names: []
 		},
 		{
 			code: "nr",
 			continent: "Oceania",
 			country: "Nauru",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","white"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "nz",
 			continent: "Oceania",
 			country: "New Zealand",
-			colors: [],
-			shapes: [],
+			colors: ["blue","red","white"],
+			shapes: ["canton","emblem","star"],
 			names: []
 		},
 		{
 			code: "om",
 			continent: "Asia",
 			country: "Oman",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","green"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "pa",
 			continent: "North America",
 			country: "Panama",
-			colors: [],
-			shapes: [],
+			colors: ["white","red","blue"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "pe",
 			continent: "South America",
 			country: "Peru",
-			colors: [],
-			shapes: [],
+			colors: ["red","white"],
+			shapes: ["triv"],
 			names: []
 		},
 		{
 			code: "pg",
 			continent: "Oceania",
 			country: "Papua New Guinea",
-			colors: [],
-			shapes: [],
+			colors: ["black","red","white","yellow"],
+			shapes: ["diagonal","emblem","star"],
 			names: []
 		},
 		{
 			code: "ph",
 			continent: "Asia",
 			country: "Philippines",
-			colors: [],
-			shapes: [],
+			colors: ["white","blue","red","yellow"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		},
 		{
 			code: "pk",
 			continent: "Asia",
 			country: "Pakistan",
-			colors: [],
-			shapes: [],
+			colors: ["white","green"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "pl",
 			continent: "Europe",
 			country: "Poland",
-			colors: [],
-			shapes: [],
+			colors: ["white","red"],
+			shapes: ["bi"],
 			names: []
 		},
 		{
 			code: "pt",
 			continent: "Europe",
 			country: "Portugal",
-			colors: [],
-			shapes: [],
+			colors: ["green","red","yellow"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "pw",
 			continent: "Oceania",
 			country: "Palau",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "py",
 			continent: "South America",
 			country: "Paraguay",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","blue"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "qa",
 			continent: "Asia",
 			country: "Qatar",
-			colors: [],
+			colors: ["white","maroon"],
 			shapes: [],
 			names: []
 		},
@@ -1197,55 +1197,55 @@ export class AppComponent {
 			code: "ro",
 			continent: "Europe",
 			country: "Romania",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","red"],
+			shapes: ["triv"],
 			names: []
 		},
 		{
 			code: "rs",
 			continent: "Europe",
 			country: "Serbia",
-			colors: [],
-			shapes: [],
+			colors: ["red","blue","white"],
+			shapes: ["trih","emblem"],
 			names: []
 		},
 		{
 			code: "ru",
 			continent: "Europe",
 			country: "Russia",
-			colors: [],
-			shapes: [],
+			colors: ["white","blue","red"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "rw",
 			continent: "Africa",
 			country: "Rwanda",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","green"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "sa",
 			continent: "Asia",
 			country: "Saudi Arabia",
-			colors: [],
-			shapes: [],
+			colors: ["green","white"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "sb",
 			continent: "Oceania",
 			country: "Solomon Islands",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","yellow","green"],
+			shapes: ["diagonal","emblem","star"],
 			names: []
 		},
 		{
 			code: "sc",
 			continent: "Africa",
 			country: "Seychelles",
-			colors: [],
+			colors: ["blue","yellow","red","white","green"],
 			shapes: [],
 			names: []
 		},
@@ -1253,143 +1253,143 @@ export class AppComponent {
 			code: "sd",
 			continent: "Africa",
 			country: "Sudan",
-			colors: [],
-			shapes: [],
+			colors: ["green","red","white","black"],
+			shapes: ["triangle"],
 			names: []
 		},
 		{
 			code: "se",
 			continent: "Europe",
 			country: "Sweden",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow"],
+			shapes: ["nordic"],
 			names: []
 		},
 		{
 			code: "sg",
 			continent: "Asia",
 			country: "Singapore",
-			colors: [],
-			shapes: [],
+			colors: ["red","white"],
+			shapes: ["bi","emblem","star"],
 			names: []
 		},
 		{
 			code: "si",
 			continent: "Europe",
 			country: "Slovenia",
-			colors: [],
-			shapes: [],
+			colors: ["white","blue","red"],
+			shapes: ["trih","emblem"],
 			names: []
 		},
 		{
 			code: "sk",
 			continent: "Europe",
 			country: "Slovakia",
-			colors: [],
-			shapes: [],
+			colors: ["white","blue","red"],
+			shapes: ["trih","emblem"],
 			names: []
 		},
 		{
 			code: "sl",
 			continent: "Africa",
 			country: "Sierra Leone",
-			colors: [],
-			shapes: [],
+			colors: ["green","white","blue"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "sm",
 			continent: "Europe",
 			country: "San Marino",
-			colors: [],
-			shapes: [],
+			colors: ["white","blue"],
+			shapes: ["bi","emblem"],
 			names: []
 		},
 		{
 			code: "sn",
 			continent: "Africa",
 			country: "Senegal",
-			colors: [],
-			shapes: [],
+			colors: ["green","yellow","red"],
+			shapes: ["triv","emblem","star"],
 			names: []
 		},
 		{
 			code: "so",
 			continent: "Africa",
 			country: "Somalia",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "sr",
 			continent: "South America",
 			country: "Suriname",
-			colors: [],
-			shapes: [],
+			colors: ["green","white","red","yellow"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "ss",
 			continent: "Africa",
 			country: "South Sudan",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","black","white","red","green"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		},
 		{
 			code: "st",
 			continent: "Africa",
 			country: "Sao Tome and Principe",
-			colors: [],
-			shapes: [],
+			colors: ["red","green","yellow","black"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		},
 		{
 			code: "sv",
 			continent: "North America",
 			country: "El Salvador",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white"],
+			shapes: ["trih","emblem"],
 			names: []
 		},
 		{
 			code: "sy",
 			continent: "Asia",
 			country: "Syria",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","black","green"],
+			shapes: ["trih","emblem","star"],
 			names: []
 		},
 		{
 			code: "sz",
 			continent: "Africa",
 			country: "Swaziland",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","red","black","white"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "td",
 			continent: "Africa",
 			country: "Chad",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","red"],
+			shapes: ["triv"],
 			names: []
 		},
 		{
 			code: "tg",
 			continent: "Africa",
 			country: "Togo",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","green","yellow"],
+			shapes: ["canton","emblem","star"],
 			names: []
 		},
 		{
 			code: "th",
 			continent: "Asia",
 			country: "Thailand",
-			colors: [],
+			colors: ["red","white","blue"],
 			shapes: [],
 			names: []
 		},
@@ -1397,7 +1397,7 @@ export class AppComponent {
 			code: "tj",
 			continent: "Asia",
 			country: "Tajikistan",
-			colors: [],
+			colors: ["red","white","green","yellow"],
 			shapes: [],
 			names: []
 		},
@@ -1405,192 +1405,192 @@ export class AppComponent {
 			code: "tl",
 			continent: "Asia",
 			country: "East Timor",
-			colors: [],
-			shapes: [],
+			colors: ["black","white","yellow","red"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		},
 		{
 			code: "tm",
 			continent: "Asia",
 			country: "Turkmenistan",
-			colors: [],
-			shapes: [],
+			colors: ["green","red","white"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "tn",
 			continent: "Africa",
 			country: "Tunisia",
-			colors: [],
-			shapes: [],
+			colors: ["red","white"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "to",
 			continent: "Oceania",
 			country: "Tonga",
-			colors: [],
-			shapes: [],
+			colors: ["white","red"],
+			shapes: ["canton","emblem"],
 			names: []
 		},
 		{
 			code: "tr",
 			continent: "Asia",
 			country: "Turkey",
-			colors: [],
-			shapes: [],
+			colors: ["red","white"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "tt",
 			continent: "North America",
 			country: "Trinidad and Tobago",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","black"],
+			shapes: ["diagonal"],
 			names: []
 		},
 		{
 			code: "tv",
 			continent: "Oceania",
 			country: "Tuvalu",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","red","yellow"],
+			shapes: ["canton","emblem","star"],
 			names: []
 		},
 		{
 			code: "tw",
 			continent: "Asia",
 			country: "Taiwan",
-			colors: [],
-			shapes: [],
+			colors: ["blue","white","red"],
+			shapes: ["canton","emblem"],
 			names: []
 		},
 		{
 			code: "tz",
 			continent: "Africa",
 			country: "Tanzania",
-			colors: [],
-			shapes: [],
+			colors: ["green","yellow","black","blue"],
+			shapes: ["diagonal"],
 			names: []
 		},
 		{
 			code: "ua",
 			continent: "Europe",
 			country: "Ukraine",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow"],
+			shapes: ["bi"],
 			names: []
 		},
 		{
 			code: "ug",
 			continent: "Africa",
 			country: "Uganda",
-			colors: [],
-			shapes: [],
+			colors: ["black","yellow","red","white"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "us",
 			continent: "North America",
 			country: "United States of America",
-			colors: [],
-			shapes: [],
-			names: []
+			colors: ["blue","red","white"],
+			shapes: ["canton","emblem","star"],
+			names: ["USA"]
 		},
 		{
 			code: "uy",
 			continent: "South America",
 			country: "Uruguay",
-			colors: [],
-			shapes: [],
+			colors: ["white","blue","yellow"],
+			shapes: ["canton","emblem"],
 			names: []
 		},
 		{
 			code: "uz",
 			continent: "Asia",
 			country: "Uzbekistan",
-			colors: [],
-			shapes: [],
+			colors: ["blue","red","white","green"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "va",
 			continent: "Europe",
 			country: "Vatican City",
-			colors: [],
-			shapes: [],
+			colors: ["yellow","white"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "vc",
 			continent: "North America",
 			country: "Saint Vincent and the Grenadines",
-			colors: [],
-			shapes: [],
+			colors: ["blue","yellow","green"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "ve",
 			continent: "South America",
 			country: "Venezuela",
-			colors: [],
-			shapes: [],
+			colors: ["yellow","blue","red"],
+			shapes: ["trih","emblem","star"],
 			names: []
 		},
 		{
 			code: "vn",
 			continent: "Asia",
 			country: "Vietnam",
-			colors: [],
-			shapes: [],
+			colors: ["red","yellow"],
+			shapes: ["emblem","star"],
 			names: []
 		},
 		{
 			code: "vu",
 			continent: "Oceania",
 			country: "Vanuatu",
-			colors: [],
-			shapes: [],
+			colors: ["black","yellow","red","green"],
+			shapes: ["triangle","emblem"],
 			names: []
 		},
 		{
 			code: "ws",
 			continent: "Oceania",
 			country: "Samoa",
-			colors: [],
-			shapes: [],
+			colors: ["blue","red","white"],
+			shapes: ["canton","emblem","star"],
 			names: []
 		},
 		{
 			code: "ye",
 			continent: "Asia",
 			country: "Yemen",
-			colors: [],
-			shapes: [],
+			colors: ["red","white","black"],
+			shapes: ["trih"],
 			names: []
 		},
 		{
 			code: "za",
 			continent: "Africa",
 			country: "South Africa",
-			colors: [],
-			shapes: [],
+			colors: ["black","yellow","green","white","red","blue"],
+			shapes: ["triangle"],
 			names: []
 		},
 		{
 			code: "zm",
 			continent: "Africa",
 			country: "Zambia",
-			colors: [],
-			shapes: [],
+			colors: ["green","red","black","orange"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{
 			code: "zw",
 			continent: "Africa",
 			country: "Zimbabwe",
-			colors: [],
-			shapes: [],
+			colors: ["white","green","yellow","red","black"],
+			shapes: ["triangle","emblem","star"],
 			names: []
 		}
 	];

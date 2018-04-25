@@ -12,7 +12,7 @@ export class PanelService {
 			yellow: "",
 			green: "",
 			blue: "",
-			purple: "",
+			maroon: "",
 			white: "",
 			grey: "",
 			black: ""
@@ -21,8 +21,10 @@ export class PanelService {
 			bi: "",
 			border: "",
 			canton: "",
+			diagonal: "",
 			emblem: "",
 			nordic: "",
+			star: "",
 			triangle: "",
 			trih : "",
 			triv : ""
