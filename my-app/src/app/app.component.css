@@ -1,12 +1,18 @@
-.field{
+.fields{
 	display: inline-block;
 }
 .field>label{
 	display: block;
 }
+.colors{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
 .colorContainer{
 	padding-left: 0.5em;
 	display: inline-block;
+	position: relative;
 }
 .colorContainer.true:before{
 	content: "✔️";
@@ -14,7 +20,7 @@
 	height: 0.75em;
 	width: 0.75em;
 	position: absolute;
-	left: 0;
+	left: -10px;
 }
 .colorContainer.false:before{
 	content: "❌";
@@ -22,7 +28,7 @@
 	height: 0.75em;
 	width: 0.75em;
 	position: absolute;
-	left: 0;
+	left: -10px;
 }
 .color:before{
 	content: "";
@@ -32,6 +38,8 @@
 	border: 1px solid black;
 	border-radius: 25%;
 	box-sizing: border-box;
+	position: relative;
+	left: -2px;
 }
 .red:before{
 	background: red;
@@ -59,7 +67,26 @@
 }
 .black:before{
 	background: black;
-}.results{
+}
+.shapes{
+	display: inline-block;
+	vertical-align: top;
+}
+.shapes>div{
+	display: flex;
+	flex-wrap: wrap;
+	width: 120px;
+}
+.shapes img{
+	margin: 5px;
+}
+.shapes img.true{
+	background: green;
+}
+.shapes img.false{
+	background: red;
+}
+.results{
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;

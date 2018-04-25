@@ -1,13 +1,19 @@
 <div class="panel">
-	<div class="field">
-		<label>Code</label>
-		<input [(ngModel)]="panel.code">
+	<div class ="fields">
+		<div class="field">
+			<label>Code</label>
+			<input [(ngModel)]="panel.code">
+		</div>
+		<div class="field">
+			<label>Country</label>
+			<input [(ngModel)]="panel.country">
+		</div>
+		<div class="field">
+			<label>Continent</label>
+			<input [(ngModel)]="panel.continent">
+		</div>
+
 	</div>
-	<div class="field">
-		<label>Country</label>
-		<input [(ngModel)]="panel.country">
-	</div>
-	<img src="/assets/icons/bi.svg">
 	<div class="colors">
 		<div class="colorContainer {{panel.colors.red}}" (click)="toggleColor('red')"><span class="color red">Red</span></div><br>
 		<div class="colorContainer {{panel.colors.orange}}" (click)="toggleColor('orange')"><span class="color orange">Orange</span></div><br>
@@ -19,6 +25,19 @@
 		<div class="colorContainer {{panel.colors.grey}}" (click)="toggleColor('grey')"><span class="color grey">Grey</span></div><br>
 		<div class="colorContainer {{panel.colors.black}}" (click)="toggleColor('black')"><span class="color black">Black</span></div><br>
 	</div>
+	<div class="shapes">
+		<div>
+			<img class="{{panel.shapes.bi}}" (click)="toggleShape('bi')" src="/assets/icons/bi.svg">
+			<img class="{{panel.shapes.border}}" (click)="toggleShape('border')" src="/assets/icons/border.svg">
+			<img class="{{panel.shapes.canton}}" (click)="toggleShape('canton')" src="/assets/icons/canton.svg">
+			<img class="{{panel.shapes.emblem}}" (click)="toggleShape('emblem')" src="/assets/icons/emblem.svg">
+			<img class="{{panel.shapes.nordic}}" (click)="toggleShape('nordic')" src="/assets/icons/nordic.svg">
+			<img class="{{panel.shapes.triangle}}" (click)="toggleShape('triangle')" src="/assets/icons/triangle.svg">
+			<img class="{{panel.shapes.trih}}" (click)="toggleShape('trih')" src="/assets/icons/trih.svg">
+			<img class="{{panel.shapes.triv}}" (click)="toggleShape('triv')" src="/assets/icons/triv.svg">
+		</div>
+	</div>
+
 </div>
 
 <div class="results">

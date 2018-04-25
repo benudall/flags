@@ -1,0 +1,17 @@
+<!DOCTYPE svg>
+<svg width="50" height="30" viewBox="-1 -1 52 32" version="1.1" xmlns="http://www.w3.org/2000/svg" style="stroke:black;stroke-width:2;fill:none">
+	<rect width="50" height="30" />
+	<path  d="
+		M 25.000 19.000
+		L 30.878 23.090
+		L 28.804 16.236
+		L 34.511 11.910
+		L 27.351 11.764
+		L 25.000 5.000
+		L 22.649 11.764
+		L 15.489 11.910
+		L 21.196 16.236
+		L 19.122 23.090
+		L 25.000 19.000
+	" style="fill:black"/>
+</svg>

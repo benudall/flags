@@ -12,13 +12,17 @@ export class AppComponent {
 	toggleColor(color){
 		this.panelService.toggleColor(color);
 	}
+
+	toggleShape(shape){
+		this.panelService.toggleShape(shape);
+	}
 	data = [
 		{
 			code: "ad",
 			continent: "Europe",
 			country: "Andorra",
 			colors: ["blue","yellow","red"],
-			shapes: ["emblem"],
+			shapes: ["triv","emblem"],
 			names: []
 		},
 		{
@@ -33,15 +37,15 @@ export class AppComponent {
 			code: "af",
 			continent: "Asia",
 			country: "Afghanistan",
-			colors: [],
-			shapes: [],
+			colors: ["black","red","green","white"],
+			shapes: ["triv","emblem"],
 			names: []
 		},
 		{
 			code: "ag",
 			continent: "North America",
 			country: "Antigua and Barbuda",
-			colors: [],
+			colors: ["red","black","yellow","blue","white"],
 			shapes: [],
 			names: []
 		},
@@ -49,8 +53,8 @@ export class AppComponent {
 			code: "al",
 			continent: "Europe",
 			country: "Albania",
-			colors: [],
-			shapes: [],
+			colors: ["red","black"],
+			shapes: ["emblem"],
 			names: []
 		},
 		{

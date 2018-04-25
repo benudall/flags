@@ -17,6 +17,7 @@ export class FilterPipe implements PipeTransform {
 
 			res = res && item.code.toLowerCase().includes(panel.code);
 			res = res && item.country.toLowerCase().includes(panel.country);
+			res = res && item.continent.toLowerCase().includes(panel.continent);
 
 			for(let c in panel.colors){
 				if(panel.colors[c] === true){
@@ -26,7 +27,15 @@ export class FilterPipe implements PipeTransform {
 					res = res && !item.colors.includes(c);
 				}
 			}
-			//console.log(panel);
+
+			for(let s in panel.shapes){
+				if(panel.shapes[s] === true){
+					res = res && item.shapes.includes(s);
+				}
+				else if(panel.shapes[c] === false){
+					res = res && !item.shapes.includes(s);
+				}
+			}
 			return res;
 		});
 	}
