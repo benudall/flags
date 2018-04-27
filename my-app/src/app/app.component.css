@@ -114,8 +114,9 @@ select{
 	width: 200px;
 	padding: 15px 5px;
 	text-align: center;
-	border: 2px lightgrey ridge;
-	margin: 5px;
+	border: 10px lightgrey ridge;
+	margin: 2px;
+	background: #e8e8e8;
 
 }
 .card img{
@@ -123,7 +124,6 @@ select{
 	max-width: 186px;
 	height: auto;
 	width: auto;
-	border: 2px lightgrey ridge;
 	position: relative;
 	top: 40%;
 	transform: translateY(-50%);
