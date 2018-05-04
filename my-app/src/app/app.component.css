@@ -118,14 +118,19 @@ select{
 	background: #e8e8e8;
 	padding: 0px 5px;
 }
-.card img{
-	max-height: 140px;
-	max-width: 200px;
-	height: auto;
-	width: auto;
+.card .image{
+	height: 146px;
+	width: 200px;
+	position: absolute;
+	top: 18px;
 }
-.card span{
-	min-height: 20px;
+.card img{
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
 }
 .card .code{
 	float: left;
@@ -143,5 +148,4 @@ select{
 	width: 100%;
 	bottom: 0px;
 	left: 0px;
-	max-height: 40px;
 }

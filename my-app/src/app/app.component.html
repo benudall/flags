@@ -54,7 +54,9 @@
 	<div class="card" *ngFor="let card of data | filter">
 		<span class="code">{{card.code}}</span>
 		<span class="continent">{{card.continent}}</span>
-		<img src="assets/flags/{{card.code}}.png">
+		<div class="image">
+			<img src="assets/flags/{{card.code}}.png">
+		</div>
 		<span class="country">{{card.country}}</span>
 	</div>
 </div>
