@@ -12,7 +12,7 @@ export class FilterPipe implements PipeTransform {
 		if(!items) return [];
 		let panel = this.panelService.getPanel();
 
-		items.sort( (a,b) =>
+		items.sort( (a,b) => {
 			if (a.country < b.country) {
 				return -1;
 			} else if (a.country > b.country) {
@@ -20,7 +20,7 @@ export class FilterPipe implements PipeTransform {
 			} else {
 				return 0;
 			}
-		)
+		})
 
 		return items.filter( item => {
 			let res = true;
